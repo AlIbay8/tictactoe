@@ -1,18 +1,30 @@
 .container {
-    width:50%;
-    display:flex;
-    flex-wrap:wrap;
+  min-width:50%;
+  max-width:70%;
+  display:flex;
+  flex-wrap:wrap;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.reset {
+  display:none;
 }
 
 .tile {
-    width:23%;
-    padding:5%;
+  min-width:23%;
+  padding:5%;
 }
 
 .right {
-    border-right: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .bottom {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+body {
+  text-align: center;
 }
